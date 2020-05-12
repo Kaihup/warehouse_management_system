@@ -17,7 +17,7 @@ public class ProductService {
         return producten;
     }
 
-    public void slaProductOp(Product product) {
+    public void newProduct(Product product) {
         pr.save(product);
     }
 
